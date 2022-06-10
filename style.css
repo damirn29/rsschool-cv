@@ -23,6 +23,7 @@ header{
     height: 85px;
     border-bottom: 1px solid rgb(152, 147, 147);
     background-color: white;
+    z-index: 2;
 }
 
 header:before{
@@ -65,3 +66,134 @@ nav{
 }
 
 
+/* main */
+
+main{
+    position: relative;
+    top: 86px;
+    width: 1200px;
+    height: 3500px;
+    
+}
+
+/* i-am */
+
+.i-am{
+    /* background-color: rgb(198, 198, 198); */
+    width: 100%;
+    height: 407px;
+}
+
+.bio{
+    position: relative;
+    top: 35px;
+}
+
+h2{
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.56;
+    font-family: "Roboto", sans-serif;
+    color: #696969;
+}
+
+.contact{
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+
+.head-bio-cont{
+
+}
+
+.contact-font{
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    line-height: 2.66;
+    color: black;
+}
+
+.bio-cont{
+    padding-left: 45px;
+}
+
+.contact-font-gr{
+    font-size: 14px;
+    line-height: 2.3;
+}
+
+.button-cont{
+    position: relative;
+    top: 68px;
+    
+}
+
+.soc-icon{
+    position: relative;
+    top: 5px;
+}
+
+.blue-button{
+    background-color: #3333ff;
+
+    font-size: 12px;
+    line-height: 1.66;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: white;
+
+    transition: all 0.3s ease;
+    min-width: 170px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.green-button{
+    background: #efefef;
+    margin-left: 25px;
+
+    font-size: 12px;
+    line-height: 1.66;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #252525;
+
+    transition: all 0.3s ease;
+    min-width: 170px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    border: none;
+    border-radius: 2px;
+}
+
+.blue-button:hover{
+    box-shadow: 8px 9px 26px -5px rgba(9, 50, 234, 0.741);
+}
+
+.green-button:hover{
+    box-shadow: 8px 9px 26px -5px rgba(34, 60, 80, 0.2);
+}
+
+.bio-img{
+    position: relative;
+    top: -250px;
+    left: 600px;
+    object-fit: cover;
+    border-radius: 1px;
+}
